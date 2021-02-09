@@ -1,0 +1,44 @@
+body{
+    background-color: #ebebeb;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: cadetblue;
+    min-height: 10vh;
+    text-align: center;
+    color: mintcream;
+}
+header > h1{
+    font-size: 4em;
+    margin-top: 0px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+main {
+    padding: 0px;
+}
+
+#Comidas{
+    background-color: rgb(222, 226, 228);
+    padding: 3%;
+}
+#comidas-img-1 {
+    text-align: center;
+    margin: 0px
+}
+#comidas-img-1 > img {
+    width: 45vw;
+    height: 55vh
+}
+
+footer {
+    background-color: #537c88;
+    min-height: 3vh;
+    text-align: center;
+}
+footer > address > a {
+    font-size: 1em;
+    color: mintcream;
+    text-transform: uppercase;
+}
