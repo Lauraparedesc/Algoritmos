@@ -19,6 +19,10 @@ main {
     padding: 0px;
 }
 
+.content-fig {
+    width: 50wv;
+    height: 45vh;
+}
 #Comidas{
     background-color: rgb(222, 226, 228);
     padding: 3%;
@@ -28,8 +32,13 @@ main {
     margin: 0px
 }
 #comidas-img-1 > img {
+    width: 55vw;
+    height: 65vh
+}
+#comidas-img-1> img:hover {
     width: 45vw;
-    height: 55vh
+    height: 55vh;
+    transition: 2s;
 }
 #paella-img-2 {
     text-align: left;
@@ -47,6 +56,23 @@ main {
     width: 35vw;
     height: 45vh
 }
+#Española {
+    min-height: 10vh;
+    text-align: left;
+    color: cadetblue;
+    font-size: 1.5rem;
+    transition: 2s;
+}
+#titulo-españa:hover{
+    background-color: rgb(165, 171, 175);
+}
+#Colombiana >h2 {
+    min-height: 10vh;
+    text-align: left;
+    color: cadetblue;
+    font-size: 2.2rem;
+}
+
 
 footer {
     background-color: #537c88;
