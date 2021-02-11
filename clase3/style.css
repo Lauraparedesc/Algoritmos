@@ -31,6 +31,22 @@ main {
     width: 45vw;
     height: 55vh
 }
+#paella-img-2 {
+    text-align: left;
+    margin: 0px
+}
+#paella-img-2 > img {
+    width: 35vw;
+    height: 45vh
+}
+#videocomidas-img-3 {
+    text-align: left;
+    margin: 48px
+}
+#videocomidas-img-3 > video {
+    width: 35vw;
+    height: 45vh
+}
 
 footer {
     background-color: #537c88;
