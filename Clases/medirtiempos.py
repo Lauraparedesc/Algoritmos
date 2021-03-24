@@ -17,3 +17,16 @@ for i in range (x):
 tiempoFinal = time.time()
 delta = tiempoFinal - tiempInicial
 print (delta)
+
+#-----inicio conteo----#
+tiempInicial = time.time()
+#---instrucciones----#
+print('hola a todos')
+x = 123
+for i in range(x):
+    for j in range(x):
+        print(j)
+#---cierre de conteo--#
+tiempoFinal = time.time()
+delta = tiempoFinal -tiempInicial
+print(delta)
