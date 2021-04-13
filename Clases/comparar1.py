@@ -11,7 +11,7 @@ listaCopia2 = lista.copy()
 #inicio
 inicio = time.time()
 #instrucciones
-ob.ordenamientoBurbuja(lista)
+ob.ordenamientoBurbuja(listaCopia)
 #delta
 deltaOb = time.time() - inicio
 

@@ -1,0 +1,72 @@
+body{
+    background-color: #ebebeb;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: rgb(196, 118, 154);
+    font-size: 2vh;
+    text-align: center;
+    color: mintcream;
+    text-transform: uppercase;
+}
+header > h1{
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main {
+    padding: 15px;
+}
+#Libre > h3 {
+    text-align: left;
+    color: rgb(196, 118, 154);
+    font-size: 1.5rem;
+}
+
+#img-1 {
+    text-align: center;
+    margin: 0px
+}
+#img-1 > img {
+    width: 85vw;
+    height: 90vh
+}
+#img-1> img:hover {
+    width: 90vw;
+    height: 95vh;
+    transition: 2s;
+}
+#img-2 {
+    text-align: center;
+}
+#img-2 > img {
+    width: 50vw;
+    height: 55vh
+}
+#free > p{
+    text-align:justify;
+    color: black;
+    font-size: 1.5rem;
+}
+#free > h2 {
+    text-align: left;
+    color: rgb(196, 118, 154);
+    font-size: 2.5rem;
+}
+#Porque > h2 {
+    text-align: left;
+    color: rgb(196, 118, 154);
+    font-size: 2.5rem;
+}
+#Porque > p{
+    text-align: justify;
+    color: black;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: rgb(196, 118, 154);
+    min-height: 4vh;
+}
